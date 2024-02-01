@@ -35,3 +35,15 @@
     margin: 0 auto;
     width: 1200px;
   }
+
+
+  @media screen and (max-width: 480px) {
+    .container{
+      width: 400px;
+      display: grid;
+      grid-template-rows: repeat(2,auto);
+      grid-template-columns: repeat(1,auto);
+     
+    }
+   
+  }

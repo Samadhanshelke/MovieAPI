@@ -31,3 +31,17 @@
     align-items: center;
     row-gap: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .container_div{
+         width: 400px;
+         flex-direction: column;
+         padding: 20px;
+    }
+    .container_div .right_div{
+        display: flex;
+        flex-direction: column;
+        width:380px;
+        padding: 20px;
+    }
+}
