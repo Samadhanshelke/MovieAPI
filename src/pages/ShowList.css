@@ -16,6 +16,7 @@
   .container div{
     width: fit-content;
     padding: 10px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     flex-direction: column;
